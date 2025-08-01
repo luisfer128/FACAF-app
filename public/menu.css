@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f6ff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  color: #034f84;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  width: 90%;
+  max-width: 1200px;
+  margin-bottom: 40px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  color: #045a8b;
+  margin: 15px 0 10px;
+  font-size: 1.2rem;
+}
+
+.card p {
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.card i {
+  color: #045a8b;
+  margin-bottom: 10px;
+}
